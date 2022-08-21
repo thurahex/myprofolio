@@ -30,5 +30,45 @@
     padding: 3px;
 }
 
+@media (max-width: 575.98px){
+    img{
+        height: 300px;
+        margin: auto;
+    }
+    .hello{
+        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-left: 25px;
 
+    }
+
+
+}
+@media (max-width: 576px) and (max-width: 767.98px){
+    img{
+        height: 350px;
+        margin-left: 15px;
+    }
+    .hello{
+        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-left: 30px;
+
+    }
+
+}
+@media (max-width: 768px) and (max-width: 991.98px){
+    img{
+        margin-left: 5px;
+    }
+}
+@media (max-width: 992px) and (max-width: 1199.98px){
+    .img{
+        margin-top:100px;
+    }
+
+}
+@media (max-width: 1200px) {
+
+}
 
