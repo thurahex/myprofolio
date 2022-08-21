@@ -10,42 +10,75 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">=</span>
+              </button>
+              <a class="navbar-brand text-dark" href="#">thurahex</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                
+              </div>
+            </div>
+          </nav>
+        
+        
+    </header>
     <div class="container-fluid">
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">=</span>
-                  </button>
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Skill</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Contact</a>
-                        </li>
-                      </ul>
-                    
-                  </div>
-                </div>
-              </nav>
-            
-            
-        </header>
+        
         <section class="section-body">
             <div class="row">
                 <div class="col-md-6">
+                   <div class="hello">
+                    <span class="hi">Hi! </span> <br>
+                    I am <span class="name">thurahex</span>,<br>
+                    <span class="web">Web Front-end Developer . . .</span>
                     
+                   </div> 
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <img src="img/my.jpg" class="ml-5"height="400px" alt="">
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-4 py-4 px-3 text-muted text-center">
+                    HTML
+                    
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" 
+                    role="progressbar" aria-valuemin="0" aria-valuemax="100" 
+                    aria-valuenow="85" style="width:85%;"></div></div>
+                </div>
+                <div class="col-md-4 py-4 text-muted text-center">CSS
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" 
+                    role="progressbar" aria-valuemin="0" aria-valuemax="100" 
+                    aria-valuenow="60" style="width:60%;"></div></div>
+                </div>
+                <div class="col-md-4 py-4 text-muted text-center">
+                    JAVASCRIPT
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" 
+                    role="progressbar" aria-valuemin="0" aria-valuemax="100" 
+                    aria-valuenow="70" style="width:70%;"></div></div>
+                </div>
             </div>
         </section>
         
